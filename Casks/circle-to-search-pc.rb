@@ -1,8 +1,8 @@
 cask "circle-to-search-pc" do
-  version "0.1.1.0"
-  sha256 "8c106320fec76c4be31a3d3ce9ada60668a553c5fd298da7174717e515b67c1b"
+  version "0.1.1.1"
+  sha256 "8a81567b1d4a06e57022c2fdd1809d1fa03b6a93829aba05a07b0414dda201ce"
 
-  url "https://github.com/nkasozi/circle-to-search-pc/releases/download/v0.1.1.0/circle-to-search-pc-macos-aarch64.dmg"
+  url "https://github.com/nkasozi/circle-to-search-pc/releases/download/v0.1.1.1/circle-to-search-pc-macos-aarch64.dmg"
 
   name "Circle to Search"
   desc "Circle-to-search for desktop — Google Lens search from any screen region"
@@ -13,6 +13,9 @@ cask "circle-to-search-pc" do
   preflight do
     system_command "/usr/bin/pkill",
                    args: ["-f", "circle-to-search-pc"],
+                   must_succeed: false
+    system_command "/bin/rm",
+                   args: ["-rf", "/Applications/Circle to Search.app"],
                    must_succeed: false
   end
 

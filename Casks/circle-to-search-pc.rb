@@ -1,8 +1,8 @@
 cask "circle-to-search-pc" do
-  version "0.1.3"
-  sha256 "7daedcdb98c0f23a8577e1e58adcc0f622a458ee703b55a7a8e089f9af527a85"
+  version "0.1.4"
+  sha256 "a8670d534d8586248dde7a40658bb38ea3537ee19a565d88155031e8dcefdb0c"
 
-  url "https://github.com/nkasozi/circle-to-search-pc/releases/download/v0.1.3/circle-to-search-pc-macos-aarch64.dmg"
+  url "https://github.com/nkasozi/circle-to-search-pc/releases/download/v0.1.4/circle-to-search-pc-macos-aarch64.dmg"
 
   name "Circle to Search"
   desc "Circle-to-search for desktop — Google Lens search from any screen region"

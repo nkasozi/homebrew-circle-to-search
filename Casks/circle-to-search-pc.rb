@@ -1,6 +1,6 @@
 cask "circle-to-search-pc" do
   version "0.1.4"
-  sha256 "a8670d534d8586248dde7a40658bb38ea3537ee19a565d88155031e8dcefdb0c"
+  sha256 "2c0bc8f75ada2b88f7a66342af11b306c9ca880088ffa09211684c05b6c82d47"
 
   url "https://github.com/nkasozi/circle-to-search-pc/releases/download/v0.1.4/circle-to-search-pc-macos-aarch64.dmg"
   name "Circle to Search"
